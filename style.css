@@ -1,17 +1,37 @@
-body{
-backgroud-color:#2F4F4F;
-
-
+*{
+    margin: 0;
+    padding: 0;
 }
 
 
-.capa{ 
-    color:dimgray;
+body{
+background: color #2F4F4F;;
+color:black;
+margin: 0px;
+  margin-bottom: 100px;  
+}
+
+header{
+    border-bottom: solid 2px #2F4F4F;
+    margin: 20px; 
+    font-size: 32px;
+    color: black;
+    
+
+}
+.capa{
+    color:#2fa297;
     font-size: 20px;
 }
 
-#volei{
-    display:flex;
-    padding-left: 200px;
-    
+#vôlei{
+display: flex;
+padding-left: 200px;
+}
+
+.video{
+
+    display: flex;
+    overflow: auto;
+    gap:10px;
 }
